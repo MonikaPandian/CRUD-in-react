@@ -7,7 +7,8 @@ import { useGlobalContext } from "./context";
 const Profile = () => {
 
     const navigate = useNavigate();
-    const { profileData } = useGlobalContext();    
+    const { profileData } = useGlobalContext(); 
+     
 
     return (
         <div>
@@ -22,7 +23,7 @@ const Profile = () => {
                 </div>
                 <div className="col edit-icon">
                     <IconButton
-                        onClick={() => navigate(`./edit-profile/${profileData.id}`)}
+                        onClick={() => navigate("./edit-profile/")}
                         color="secondary">
                         <EditIcon />
                     </IconButton>

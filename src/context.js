@@ -1,5 +1,4 @@
 import React, { useState, useContext } from "react";
-import img from './img/profile.jpg';
 
 const AppContext = React.createContext();
 

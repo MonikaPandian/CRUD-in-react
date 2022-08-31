@@ -18,7 +18,7 @@ function App() {
       <Routes>
         <Route path="/*" element={<ProfileUser />} />
         <Route path="/profile/*" element={<ProfileUser/>}/>        
-        <Route path="/edit-profile/:id" element={<EditPro/>}/>
+        <Route path="/edit-profile/" element={<EditPro/>}/>
         <Route path="/create-user" element={<CreateUser/>}/>
         <Route path="/list-users" element={<ListUser/>}/>
         <Route path="/edit-user" element={<Edit/>}/>
