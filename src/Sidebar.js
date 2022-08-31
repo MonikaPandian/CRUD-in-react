@@ -21,9 +21,9 @@ const Sidebar = () => {
 
             {/* <!-- Nav Item - Dashboard --> */}
             <li className="nav-item active">
-                <a className="nav-link" href="#" onClick={() => navigate("/dashboard")}>
+                <a className="nav-link" onClick={() => navigate("/profile")}>
                     <i className="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                    <span>Profile</span></a>
             </li>
 
             {/* <!-- Divider --> */}
@@ -36,7 +36,7 @@ const Sidebar = () => {
 
             {/* <!-- Nav Item - List user --> */}
             <li className="nav-item">
-                <a className="nav-link" href=""  onClick={() => navigate("/list-users")}>
+                <a className="nav-link" onClick={() => navigate("/list-users")}>
                     <span className="nav-items"><i className="fa-solid fa-list"></i>List User</span></a>
             </li>
 
@@ -44,7 +44,7 @@ const Sidebar = () => {
             <hr className="sidebar-divider" />
             {/* <!-- Nav Item - Create user --> */}
             <li className="nav-item">
-                <a className="nav-link" href=""  onClick={() => navigate("/create-user")}>
+                <a className="nav-link" onClick={() => navigate("/create-user")}>
                     <span className="nav-items"><i className="fa-solid fa-plus"></i>Create User</span></a>
             </li>
 
@@ -54,7 +54,7 @@ const Sidebar = () => {
 
             {/* <!-- Nav Item - List user --> */}
             <li className="nav-item">
-                <a className="nav-link" href=""  onClick={() => navigate("/edit-user")}>
+                <a className="nav-link" onClick={() => navigate("/edit-user")}>
                     <span className="nav-items"><i className="fa-solid fa-pencil"></i>Edit User</span></a>
             </li>
 
@@ -63,7 +63,7 @@ const Sidebar = () => {
 
             {/* <!-- Nav Item - List user --> */}
             <li className="nav-item">
-                <a className="nav-link" href=""  onClick={() => navigate("/delete-user")}>
+                <a className="nav-link" onClick={() => navigate("/delete-user")}>
                     <span className="nav-items"><i className="fa-solid fa-trash-can"></i>Delete User</span></a>
             </li>
 

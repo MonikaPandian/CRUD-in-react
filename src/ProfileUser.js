@@ -4,12 +4,10 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import Scrolltop from './Scrolltop';
 import Logout from './Logout';
-import { useNavigate } from 'react-router-dom';
 import Profile from './Profile';
 
-const Dashboard = () => {
+const ProfileUser = () => {
 
-    const navigate = useNavigate();
     
     return (
         <div>
@@ -30,5 +28,5 @@ const Dashboard = () => {
     )
 }
 
-export default Dashboard;
+export default ProfileUser;
 
