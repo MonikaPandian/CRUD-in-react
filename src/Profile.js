@@ -23,7 +23,7 @@ const Profile = () => {
                 </div>
                 <div className="col edit-icon">
                     <IconButton
-                        onClick={() => navigate("./edit-profile/")}
+                        onClick={() => navigate(`/edit-profile/${profileData.id}`)}
                         color="secondary">
                         <EditIcon />
                     </IconButton>

@@ -28,20 +28,8 @@ export default function EditUser() {
 
   return (
 
-    <div>
-      <div id="wrapper">
-        <Sidebar />
-        <div id="content-wrapper" className="d-flex flex-column">
-          {/* <!-- Main Content --> */}
-          <div id="content">
-            <Navbar />            
-            {user ? <EditUserForm user={user} /> : "Loading..."}
-          </div>
-          <Footer />
-        </div>
-      </div>
-      <Scrolltop />
-      <Logout />
+    <div>                 
+            {user ? <EditUserForm user={user} /> : "Loading..."}        
     </div>
 
   )

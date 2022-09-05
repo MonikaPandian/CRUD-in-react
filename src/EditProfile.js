@@ -29,7 +29,7 @@ const EditProfile = () => {
         txt,
         profPic
       });
-      navigate("./profile");
+      navigate("/profile");
       toast("Profile is updated !!");
     }
   }

@@ -1,13 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import {
-    IconButton,
-    Typography,
-    ListItem,
-    ListItemSecondaryAction,
-    ListItemText
-} from "@mui/material";
 
 const ListUsr = () => {
 
@@ -27,7 +20,7 @@ const ListUsr = () => {
 
     return (
         <div>
-            <div className=''><h1>List of User Details</h1></div>
+            <div><h1>List of User Details</h1></div>
             {users.map((usr) => {
                 return (
                 <div className="list-users">
