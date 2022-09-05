@@ -12,6 +12,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import EditProfile from './EditProfile';
 import EditUser from './EditUser';
+import DeleteUser from './DeleteUser';
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
                 <Route path="/edit-user" element={<EditList />} />
                 <Route path="/edit-user/:id" element={<EditUser />} />
                 <Route path="/delete-user" element={<DeleteList />} />
+                <Route path="/delete-user/:id" element={<DeleteUser />} />
               </Routes>
             </div>
           </div>
