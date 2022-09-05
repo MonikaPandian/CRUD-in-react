@@ -3,11 +3,6 @@ import TextField from '@mui/material/TextField';
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
-import Sidebar from './Sidebar';
-import Navbar from './Navbar';
-import Footer from './Footer';
-import Scrolltop from './Scrolltop';
-import Logout from './Logout';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
